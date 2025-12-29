@@ -1,6 +1,7 @@
 ## Què és shelf?
 
->[NOTE] **Article base**
+> [!NOTE]
+> **Article base**
 > https://dartcodelabs.com/introduction-to-darts-shelf-package-lightweight-backend-development/
 
 Existeixen diverses llibreríes per crear backends a Dart. Shelf és una d'elles, i es caracteritza per ser un framework potent, modular i minimalista, dissenyat per simplificar el procés de creació de serveis web i APIs, i amb una forma de funcionar semblant a ExpressJS.
