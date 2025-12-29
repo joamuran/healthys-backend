@@ -101,7 +101,7 @@ Com veiem, la funció `createStaticHandler` rep dos arguments:
 
 Podem consultar la resta de paràmetres d'aquesta funció bé en la documentació incorporada, situant-nos damunt o bé a [la documentació en línia de la llibreria](https://pub.dev/documentation/shelf_static/latest/shelf_static/createStaticHandler.html).
 
-> [NOTE] **Sobre localhost i 127.0.0.1**
+> [!NOTE] **Sobre localhost i 127.0.0.1**
 > 
 > Si accedim al servidor a través de `localhost` no tindrem problemes, però si intentem accedir a través de `127.0.0.1`, veurem que no és possible.
 >
@@ -144,7 +144,7 @@ Com veiem, actúa com a un *envoltori* del manipulador que li proporcionem.
 
 Cal dir que els middlewares es poden apilar, de manera que cada middleware modifique la sol·licitud o la resposta segons siga necessari.
 
-> [NOTE] **Reescriptura com a funció**
+> [!NOTE] **Reescriptura com a funció**
 > 
 > Amb la sintaxi anterior, VSCode ens donarà una advertència, indicant que podem reescriure l'assignació com a funció. El resultat seria:
 > ```dart

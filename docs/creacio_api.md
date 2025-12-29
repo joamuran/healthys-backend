@@ -171,7 +171,7 @@ Shelf no té enrutament propi,com a tal, però tenim la llibreria `shelf_router`
 
 La tasca principal dels routers és la d'associar rutes als *handlers* (controllers), però NO crea els controladors ni fa *Injecció de Dependències*.
 
-> [NOTE] **Injecció de dependències**
+> [!NOTE] **Injecció de dependències**
 >
 La **injecció de dependències** consisteix a passar a una classe els objectes que necessita per funcionar, en lloc de crear-los ella mateixa.
 >
@@ -200,7 +200,7 @@ Router buildPrincipalsRoutes(PrincipalsController controller) {
 
 COm veiem, el que fem és associar a cada ruta un Controlador, **el qual gem rebut com a argument, no el definim aci**.
 
-> [NOTE] **Sobre l'operador `..` (cascade)**
+> [!NOTE] **Sobre l'operador `..` (cascade)**
 >
 > L'operador `..` permet encadenar crides sobre el mateix objecte. Per exemple:
 >
@@ -238,14 +238,14 @@ Router buildApiRouter(
 }
 ```
 
-> [NOTE] **`..mount`**
+> [!NOTE] **`..mount`**
 >
 > Amb `..mount` el que fem és *muntar* rutes sobre un únic router. En aquest cas, el que estem fent és *muntar* el router principal amb les rutes `/api/entrants`, `/api/begudes`, i `/api/principals`, i enllaçar-los amb els routers corresponents (`buildEntrantsRoutes`, `buildBegudesRoutes` i `buildPrincipalsRoutes`). Dins aquestes rutes principals, ja establim les subrutes de cada *miniaplicació*.
 >
 > Observeu que aquesta funció rep els tres controladors principals, i per tant, no els ha de construir ella mateixa (injecció de dependències!)
 >
 
-> [NOTE] **El `.call`**
+> [!NOTE] **El `.call`**
 >
 > En Shelf, les rutes esperen un *handler*, és a dir, una funció que rep una petició i retorna una resposta.
 >
