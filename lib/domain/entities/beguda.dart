@@ -11,6 +11,7 @@ class Beguda {
   isAlcoholic; // Si és alcohòlica
   final String?
   additionalInfo; // Qualsevol informació addicional
+  final String? img;
 
   Beguda({
     required this.name,
@@ -21,6 +22,7 @@ class Beguda {
     required this.calories,
     required this.isAlcoholic,
     this.additionalInfo,
+    this.img,
   });
 
   @override

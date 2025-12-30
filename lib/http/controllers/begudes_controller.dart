@@ -16,7 +16,7 @@ class BegudesController {
   Future<Response> getBegudes(
     Request request,
   ) async {
-    // Cridem al cas d'ús per obtenir els entrants
+    // Cridem al cas d'ús per obtenir les begudes
     List<Beguda> begudes =
         await useCases.getBegudes
             .execute();
@@ -50,7 +50,7 @@ class BegudesController {
       );
     }
 
-    // Cridem al cas d'ús per obtenir els entrants
+    // Cridem al cas d'ús per obtenir les begudes
     List<Beguda> begudes =
         await useCases.getBegudes
             .execute(tipus: tipus);
@@ -75,18 +75,18 @@ class BegudesController {
   ) {
     return begudes
         .map(
-          (entrant) => {
-            'name': entrant.name,
+          (beguda) => {
+            'name': beguda.name,
             'description':
-                entrant.description,
-            'tipus': entrant.tipus,
-            'price': entrant.price,
-            'calories':
-                entrant.calories,
+                beguda.description,
+            'tipus': beguda.tipus,
+            'price': beguda.price,
+            'calories': beguda.calories,
             'isAlcoholic':
-                entrant.isAlcoholic,
+                beguda.isAlcoholic,
             'additionalInfo':
-                entrant.additionalInfo,
+                beguda.additionalInfo,
+            'img': beguda.img,
           },
         )
         .toList();

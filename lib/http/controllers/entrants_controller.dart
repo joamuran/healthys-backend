@@ -87,6 +87,7 @@ class EntrantsController {
                 entrant.dietType,
             'additionalInfo':
                 entrant.additionalInfo,
+            'img': entrant.img,
           },
         )
         .toList();

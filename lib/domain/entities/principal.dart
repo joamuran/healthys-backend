@@ -12,6 +12,7 @@ class Principal {
   dietType; // Tipus de dieta
   final String?
   additionalInfo; // Qualsevol informació addicional
+  final String? img;
 
   Principal({
     required this.name,
@@ -22,6 +23,7 @@ class Principal {
     required this.calories,
     required this.dietType,
     this.additionalInfo,
+    this.img,
   });
 
   @override

@@ -25,6 +25,9 @@ class PrincipalMapper {
       ),
       additionalInfo:
           json["additionalInfo"],
+      img:
+          (json['img'] as String?) ??
+          "/img/not_found.png",
     );
   }
 }

@@ -26,6 +26,9 @@ class BegudaMapper {
           (json['isAlcoholic']
               as bool?) ??
           false,
+      img:
+          (json['img'] as String?) ??
+          "/img/not_found.png",
     );
   }
 }

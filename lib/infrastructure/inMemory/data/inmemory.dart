@@ -17,7 +17,8 @@ entrants = {
       ],
       "additionalInfo":
           "Fresca i lleugera.",
-      "img": "",
+      "img":
+          "img/amanida_mediterrania.png",
     },
     {
       "name":
@@ -33,6 +34,8 @@ entrants = {
       ],
       "additionalInfo":
           "Una opció nutritiva i lleugera.",
+      "img":
+          "img/amanida_quinoa_verdures.png",
     },
     {
       "name": "Amanida caprese",
@@ -47,6 +50,7 @@ entrants = {
       ],
       "additionalInfo":
           "Fresca i lleugera.",
+      "img": "img/amanida_caprese.png",
     },
   ],
   "tartars": [
@@ -63,6 +67,7 @@ entrants = {
       ],
       "additionalInfo":
           "Rica en omega 3.",
+      "img": "img/tartar_tonyina.png",
     },
     {
       "name": "Tartar de salmó",
@@ -74,6 +79,7 @@ entrants = {
       "dietType": ["Sense gluten"],
       "additionalInfo":
           "Proteïna saludable per començar.",
+      "img": "img/tartar_salmo.png",
     },
     {
       "name": "Tartar de verdures",
@@ -89,11 +95,12 @@ entrants = {
 
       "additionalInfo":
           "Lleuger i fresc.",
+      "img": "img/tartar_verdures.png",
     },
   ],
-  "rollitos": [
+  "rotllets": [
     {
-      "name": "Rollitos vietnamites",
+      "name": "Rotllets vietnamites",
       "description":
           "Rollitos d'arròs farcits de verdures fresques i salsa de cacauet.",
       "allergens": [
@@ -105,11 +112,13 @@ entrants = {
       "dietType": ["Vegà"],
       "additionalInfo":
           "Edat de l'orient més saludable.",
+      "img":
+          "img/rollets_vietnamites.png",
     },
     {
-      "name": "Rollitos de primavera",
+      "name": "Rotllets de primavera",
       "description":
-          "Rollitos d'arròs farcits amb verdures i salsa de soja.",
+          "Rotllets d'arròs farcits amb verdures i salsa de soja.",
       "allergens": ["Sèsam"],
       "price": 6.00,
       "calories": 200,
@@ -119,6 +128,8 @@ entrants = {
       ],
       "additionalInfo":
           "Frescos i lleugers.",
+      "img":
+          "img/rollitos_primavera.png",
     },
   ],
   "altres": [
@@ -136,6 +147,7 @@ entrants = {
 
       "additionalInfo":
           "Ideal per a picoteig saludable.",
+      "img": "img/hummus_classic.png",
     },
     {
       "name": "Guacamole amb nachos",
@@ -148,6 +160,7 @@ entrants = {
 
       "additionalInfo":
           "Un clàssic mexicà amb un toc saludable.",
+      "img": "img/guacamole_nachos.png",
     },
     {
       "name": "Pà de pita amb hummus",
@@ -160,6 +173,7 @@ entrants = {
 
       "additionalInfo":
           "Ideal per a vegans.",
+      "img": "img/pa_pita_hummus.png",
     },
     {
       "name": "Bruschetta de tomàquet",
@@ -172,6 +186,8 @@ entrants = {
 
       "additionalInfo":
           "Fresca i deliciosa.",
+      "img":
+          "img/bruschetta_tomaquet.png",
     },
     {
       "name": "Carpaccio de vedella",
@@ -183,6 +199,8 @@ entrants = {
       "dietType": ["Sense gluten"],
       "additionalInfo":
           "Una opció sofisticada per a carnívors.",
+      "img":
+          "img/carpaccio_vedella.png",
     },
   ],
 };
@@ -206,6 +224,7 @@ principals = {
       ],
       "additionalInfo":
           "Ric en omega 3 i perfecte per a una dieta alta en proteïnes.",
+      "img": "img/poke_tonyina.png",
     },
     {
       "name": "Poke vegà",
@@ -220,6 +239,7 @@ principals = {
       ],
       "additionalInfo":
           "Una opció vegana, nutritiva i deliciosa.",
+      "img": "img/poke_vega.png",
     },
   ],
   "wraps": [
@@ -237,6 +257,7 @@ principals = {
       ],
       "additionalInfo":
           "Una opció ràpida i saludable.",
+      "img": "img/wrap_pollastre.png",
     },
     {
       "name": "Wrap vegà",
@@ -251,6 +272,7 @@ principals = {
       ],
       "additionalInfo":
           "Lleuger i ple de nutrients.",
+      "img": "img/wrap_vega.png",
     },
   ],
   "amanides": [
@@ -268,6 +290,8 @@ principals = {
       ],
       "additionalInfo":
           "Perfecte per a una dieta equilibrada.",
+      "img":
+          "img/amanida_quina_pollastre.png",
     },
     {
       "name":
@@ -283,6 +307,7 @@ principals = {
       ],
       "additionalInfo":
           "Una opció fresca i saludable.",
+      "img": "img/amanida_salmo.png",
     },
     {
       "name": "Amanida mediterrània",
@@ -298,6 +323,8 @@ principals = {
 
       "additionalInfo":
           "Una opció lleugera i fresca.",
+      "img":
+          "img/amandia_mediterrania.png",
     },
     {
       "name": "Amanida César",
@@ -310,6 +337,7 @@ principals = {
 
       "additionalInfo":
           "Una opció clàssica amb un toc saludable.",
+      "img": "img/amanida_cesar.png",
     },
     {
       "name":
@@ -326,6 +354,8 @@ principals = {
 
       "additionalInfo":
           "Una opció fresca i lleugera.",
+      "img":
+          "img/amanida_fruites_tropicals.png",
     },
   ],
   "altres": [
@@ -343,6 +373,7 @@ principals = {
 
       "additionalInfo":
           "Ideal per als amants del peix cru.",
+      "img": "img/bowl_salmo.png",
     },
     {
       "name": "Sushi vegà",
@@ -358,6 +389,7 @@ principals = {
 
       "additionalInfo":
           "Deliciós i perfecte per a vegans.",
+      "img": "img/sushi_vega.png",
     },
     {
       "name": "Tàrtar de vedella",
@@ -370,6 +402,7 @@ principals = {
 
       "additionalInfo":
           "Rica en proteïnes i ideal per als amants de la carn.",
+      "img": "img/tartar_vedella.png",
     },
   ],
 };
@@ -388,6 +421,8 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Una opció ideal per millorar la digestió.",
+      "img":
+          "img/kombucha_gingebre.png",
     },
     {
       "name":
@@ -400,6 +435,8 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Una beguda refrescant i rica en antioxidants.",
+      "img":
+          "img/kombucha_fruits_bosc.png",
     },
   ],
   "aigues": [
@@ -413,6 +450,7 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Hidrata't de forma natural.",
+      "img": "img/aigua_coco.png",
     },
     {
       "name": "Aigua amb gas",
@@ -424,6 +462,7 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Una opció lleugera i refrescant.",
+      "img": "img/aigua_gas.png",
     },
   ],
   "te": [
@@ -437,6 +476,7 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Refresca't amb un te saludable.",
+      "img": "img/te_gelat_menta.png",
     },
     {
       "name": "Té verd",
@@ -448,6 +488,7 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Perfecte per a relaxar-se durant el sopar.",
+      "img": "img/te_verd.png",
     },
   ],
   "altres": [
@@ -461,10 +502,13 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Una opció refrescant per a qualsevol hora.",
+      "img":
+          "img/cervesa_sense_alcohol.png",
     },
+
     {
       "name":
-          "Cervesa zero zero Toztada",
+          "Cervesa zero zero Tostada",
       "description":
           "Cervesa 0.0 tostada refrescant.",
       "allergens": ["Cervesa"],
@@ -473,6 +517,7 @@ begudes = {
       "isAlcoholic": false,
       "additionalInfo":
           "Una opció refrescant i de sabor intens.",
+      "img": "img/cervesa_00.png",
     },
   ],
 };

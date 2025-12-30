@@ -87,6 +87,7 @@ class PrincipalsController {
                 principal.dietType,
             'additionalInfo': principal
                 .additionalInfo,
+            'img': principal.img,
           },
         )
         .toList();

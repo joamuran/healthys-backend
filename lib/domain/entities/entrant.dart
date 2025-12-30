@@ -11,6 +11,7 @@ class Entrant {
   dietType; // Tipus de dieta (ex: vegà, sense gluten, etc.)
   final String?
   additionalInfo; // Qualsevol informació addicional
+  final String? img;
 
   Entrant({
     required this.name,
@@ -21,6 +22,7 @@ class Entrant {
     required this.calories,
     required this.dietType,
     this.additionalInfo,
+    this.img,
   });
 
   @override
