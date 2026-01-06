@@ -1,0 +1,11 @@
+name: healthys-backend
+runtime: dart
+entrypoint: bin/server.dart
+
+# Versió de Dart (opcional)
+dart:
+  version: stable
+
+# Opcional: variables d'entorn
+#env:
+#  - KEY: value

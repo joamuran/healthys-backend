@@ -1,3 +1,8 @@
 # https://dart.dev/guides/libraries/private-files
 # Created by `dart pub`
 .dart_tool/
+
+# Afegides a banda per a globe.dev
+.packages
+build/
+pubspec.lock  # opcional, però recomanat per backends
