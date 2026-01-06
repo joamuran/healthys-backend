@@ -353,22 +353,3 @@ void main(List<String> args) async {
 ```
 
 
-
-
-
-
-# Recursos deplegametn
-
-https://dartcodelabs.com/deploying-dart-backend-apps-on-docker-step-by-step-guide/#deploying-the-dockerized-dart-backend
-
-https://globe.dev/blog/4-ways-deploy-dart-backend/
-
-
-
-
-# Desplegament a globe.dev
-
-
-Pla hobby gratuit
-
-
