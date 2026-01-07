@@ -1,6 +1,6 @@
 name: healthys-backend
 runtime: dart
-entrypoint: bin/server.dart
+entrypoint: bin/main.dart
 
 # Versió de Dart (opcional)
 dart:
