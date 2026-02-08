@@ -52,6 +52,7 @@ class EntrantsController {
     return entrants
         .map(
           (entrant) => {
+            'id': entrant.id,
             'name': entrant.name,
             'description': entrant.description,
             'tipus': entrant.tipus,

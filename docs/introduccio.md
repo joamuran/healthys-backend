@@ -6,7 +6,7 @@
 
 Existeixen diverses llibreríes per crear backends a Dart. Shelf és una d'elles, i es caracteritza per ser un framework potent, modular i minimalista, dissenyat per simplificar el procés de creació de serveis web i APIs, i amb una forma de funcionar semblant a ExpressJS.
 
-Els tres conceptes sobre els què es fonamenta Shelf són: Handlers, Middlewares i Pipelines. 
+Els tres conceptes sobre els què es fonamenta Shelf són: Handlers, Middlewares i Pipelines.
 
 * Els **Handlers** serien l'equivalent als controladors d'Express: funcions que processen les sol·licituds HTTP entrants i generen respostes. 
 * Els **Middlewares** permeten manipular les sol·licituds i respostes en diferents etapes del processament (autenticació, generació de logs, etc.)

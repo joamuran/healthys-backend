@@ -1,20 +1,17 @@
 class Principal {
-  final String
-  name; // Nom del plat principal
-  final String
-  description; // Descripció amb ingredients
+  final String id; // ID
+  final String name; // Nom del plat principal
+  final String description; // Descripció amb ingredients
   final String? tipus;
-  final List<String>
-  allergens; // Alèrgens
+  final List<String> allergens; // Alèrgens
   final double price; // Preu
   final int calories; // Calories
-  final List<String>
-  dietType; // Tipus de dieta
-  final String?
-  additionalInfo; // Qualsevol informació addicional
+  final List<String> dietType; // Tipus de dieta
+  final String? additionalInfo; // Qualsevol informació addicional
   final String? img;
 
   Principal({
+    required this.id,
     required this.name,
     required this.description,
     this.tipus,
@@ -28,6 +25,6 @@ class Principal {
 
   @override
   String toString() {
-    return 'Principal(name: $name, description: $description, tipus: $tipus, allergens: $allergens, price: $price, calories: $calories, dietType: $dietType, additionalInfo: $additionalInfo)';
+    return 'Principal(id:$id, name: $name, description: $description, tipus: $tipus, allergens: $allergens, price: $price, calories: $calories, dietType: $dietType, additionalInfo: $additionalInfo)';
   }
 }

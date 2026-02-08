@@ -53,6 +53,7 @@ class PrincipalsController {
     return principals
         .map(
           (principal) => {
+            'id': principal.id,
             'name': principal.name,
             'description': principal.description,
             'allergens': principal.allergens,

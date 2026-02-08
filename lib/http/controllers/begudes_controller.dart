@@ -52,6 +52,7 @@ class BegudesController {
     return begudes
         .map(
           (beguda) => {
+            'id': beguda.id,
             'name': beguda.name,
             'description': beguda.description,
             'tipus': beguda.tipus,
